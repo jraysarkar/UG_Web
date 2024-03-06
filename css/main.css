@@ -3166,8 +3166,10 @@ p {
   position: fixed;
   bottom: 0;
   top: auto;
-  right: 40px;
-  left: auto;
+  /* right: 40px;
+  left: auto; */
+  left: 40px;
+  right:auto;
   margin-bottom: 40px;
   font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
   z-index: 2;
@@ -3190,21 +3192,23 @@ p {
   position: fixed;
   bottom: 0;
   top: auto;
-  left: 16px;
-  right: auto;
+  /* left: 16px;
+  right: auto; */
+  left: auto;
+  right: 16px;
   margin-bottom: 16px;
   font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
   z-index: 2;
   background: transparent; }
   @media (min-width: 768px) {
     .slider-navigation {
-      left: 40px;
+      right: 40px;
       margin-bottom: 40px;
       position: absolute; } }
   @media (min-width: 1024px) {
     .slider-navigation {
       position: fixed;
-      left: 40px;
+      right: 40px;
       margin-bottom: 40px; } }
   .slider-navigation a.left, .slider-navigation a.right, .slider-navigation .text {
     display: block;
@@ -3220,22 +3224,24 @@ p {
   position: relative;
   bottom: 0;
   top: auto;
-  left: 16px;
-  right: auto;
+  /* left: 16px;
+  right: auto; */
+  left: auto;
+  right: 16px;
   margin-bottom: 16px;
   font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
   z-index: 1;
   background: transparent; }
   @media (min-width: 768px) {
     .footer-register {
-      left: 88px;
+      right: 88px;
       margin-top: 16px;
       margin-bottom: 48px; } }
   @media (min-width: 1024px) {
     .footer-register {
       position: absolute;
       top: auto;
-      left: 40px;
+      right: 40px;
       margin-bottom: 40px; } }
   .footer-register .btns-action .btn {
     margin-bottom: 0; }
